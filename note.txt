@@ -1,0 +1,11 @@
+1. clone code về : git clone + " copy mã nguồn dán dô "
+2.kiểm tra cập nhật mới nhất từ code: 
+* git check out main / master (tùy máy)
+* git push origin maimn / master (tùy máy)
+3. Tạo nhánh riêng r bắt đầu code:
+* git checkout -b + tên nhánh 
+lưu ý: xonh bước vscode sẽ điều hướng đến nhánh đã đc tạo và thao tác các bước đẩy sau :
+1. git add . 
+2. git commit -m"nội dung"
+3. git push -u origin (lần đầu nên phải chạy terminal dòng này, sau dòng này mọi lần push sau chỉ cần như bước số 4 bên dưới là xong  !!)
+4. git push 
