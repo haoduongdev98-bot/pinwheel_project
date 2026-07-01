@@ -9,3 +9,11 @@ lưu ý: xonh bước vscode sẽ điều hướng đến nhánh đã đc tạo 
 2. git commit -m"nội dung"
 3. git push -u origin (lần đầu nên phải chạy terminal dòng này, sau dòng này mọi lần push sau chỉ cần như bước số 4 bên dưới là xong  !!)
 4. git push 
+/// sau bước này trở đi thì mỗi lần thêm bất kì gì đó vào code thì chỉ cần 
+1. git add . 
+2. git commit -m""
+3. git push là xong
+// nếu muốn đẩy code lên nhánh chính 
+1. ví dụ đang ở nhánh A : sau khi push code từ nhánh A lên git hub thì dùng cú pháp git checkout + tên nhánh chính để chuyển vào nhánh chính sau đó : git merge + tên nhánh cần merge tức là merge code từ nhánh A vào nhánh Chính 
+
+lưu ý: có thể git hub sẽ tự tạo 2 nhánh chính ban đầu là master và main , chỉ cần nhớ code chính nằm ở nhánh chính nào thì khi merge sẽ đứng ở nhánh đó và merge code từ nhánh phụ dô là ổn . 
