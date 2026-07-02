@@ -1,5 +1,6 @@
 header {
-    /* background-color: black; */
+    background-color: transparent;
+    padding: 24px 0;
 }
 
 header .header_content {

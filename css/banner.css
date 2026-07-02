@@ -1,0 +1,45 @@
+.banner {
+    background-image: url(../img/banner-shape.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    padding:  64px 0;
+}
+
+.banner .banner_content {
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* css for banner img*/
+.banner_img {
+    max-width: 600px;
+    width: 100%;
+}
+
+.banner .banner_content .banner_img img {
+    width: 100%;
+    min-height: auto;
+}
+
+/* css for title banner */
+.banner .banner_content .banner_title h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.banner .banner_content .banner_title p{
+    margin-top: 24px;
+    color: rgba(128, 128, 128, 0.736);
+}
+
+.banner .banner_content .banner_title a{
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    padding: 15px 48px;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 32px;
+    display: inline-block;
+}
