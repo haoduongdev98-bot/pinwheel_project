@@ -1,0 +1,18 @@
+/* css features title */
+.features {
+    padding: 64px 0;
+}
+
+.features .features_content .features_title{
+    align-items: center;
+}
+.features .features_content .features_title .title_right h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.features .features_content .features_title  .title_left p{
+    color: rgba(128, 128, 128, 0.695);
+    margin: 0;
+    text-align: left;
+}
