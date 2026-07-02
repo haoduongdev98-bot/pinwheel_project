@@ -31,3 +31,27 @@
   .fixed-img { height: 250px; }
   .service-container { padding: 0 15px; }
 }
+
+.features_title {
+  margin-bottom: 50px; 
+}
+
+/* Định dạng thẻ H2 */
+.title_right h2 {
+  font-size: 48px;
+  font-weight: 700; 
+  line-height: 1.2;
+  color: #212529;
+}
+
+.title_left p {
+  font-size: 18px;
+  color: #6c757d;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .title_right h2 { font-size: 32px; }
+  .title_left p { margin-top: 20px; }
+}
