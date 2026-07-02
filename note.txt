@@ -29,4 +29,3 @@ lưu ý:
 trả lời: khi merge code nếu bị báo lỗi thì sửa code xong mới phải dùng 3 bước , còn khi merge code mà ko có lỗi j xảy ra thì chỉ cần : git push origin + tên nhánh chính là xong !!!
 
 2. câu lệnh ở B2 : khi chuyển vào nhánh chính , để tránh tr đó có ng thay đổi code trên nhánh chính và đã đẩy lên nhánh chính từ lâu thì phải làm câu lệnh ở B2 để vscode cập nhật lấy code thay đổi mới nhất từ git hub về để tránh xung đột
-
