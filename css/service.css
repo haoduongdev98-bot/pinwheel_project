@@ -1,0 +1,35 @@
+.service {
+    padding: 64px 0;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.custom-btn {
+  background-color: transparent !important;
+  color: #333 !important;
+  border: 1px solid transparent !important;
+  transition: 0.3s;
+}
+
+
+.custom-btn.active {
+  background-color: #ffd8b1 !important;
+  border-radius: 10px;
+}
+
+.fixed-img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+  .fixed-img {
+    height: 250px;
+  }
+}
