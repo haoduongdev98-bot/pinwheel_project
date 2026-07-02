@@ -17,3 +17,16 @@ lưu ý: xonh bước vscode sẽ điều hướng đến nhánh đã đc tạo 
 1. ví dụ đang ở nhánh A : sau khi push code từ nhánh A lên git hub thì dùng cú pháp git checkout + tên nhánh chính để chuyển vào nhánh chính sau đó : git merge + tên nhánh cần merge tức là merge code từ nhánh A vào nhánh Chính 
 
 lưu ý: có thể git hub sẽ tự tạo 2 nhánh chính ban đầu là master và main , chỉ cần nhớ code chính nằm ở nhánh chính nào thì khi merge sẽ đứng ở nhánh đó và merge code từ nhánh phụ dô là ổn . 
+
+///// các bước merge code 
+B1: git checkout + tên nhánh chính (hiện tại nhánh chính đang là master trên github)
+B2: git pull origin master
+B3: khi đã ở nhánh chính: git merge + tên của nhánh hiện tại của dev (git merge hao /  trung)
+B4: đẩy code nhánh chính trên git hub : git push origin master
+
+lưu ý: 
+1. tại sao ko dùng 3 bước đẩy code mà lại dùng câu lệnh ở B4 ? 
+trả lời: khi merge code nếu bị báo lỗi thì sửa code xong mới phải dùng 3 bước , còn khi merge code mà ko có lỗi j xảy ra thì chỉ cần : git push origin + tên nhánh chính là xong !!!
+
+2. câu lệnh ở B2 : khi chuyển vào nhánh chính , để tránh tr đó có ng thay đổi code trên nhánh chính và đã đẩy lên nhánh chính từ lâu thì phải làm câu lệnh ở B2 để vscode cập nhật lấy code thay đổi mới nhất từ git hub về để tránh xung đột
+
