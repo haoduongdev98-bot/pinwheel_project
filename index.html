@@ -13,54 +13,45 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <div class="container-fluid">
-        <div class="header_content row">
-          <div class="col-12 col-md-6 col.lg-4">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container-fluid">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarTogglerDemo03"
-                  aria-controls="navbarTogglerDemo03"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
+        <div class="header_content row g-0">
+          <!-- logo -->
+          <div class="header_logo col-12 col-md-6 col-lg-4">
+            <a href="#">
+              <img src="./img/logo.svg" alt="" />
+            </a>
+          </div>
+          <!-- navbar -->
+          <div class="header_nav col-12 col-md-6 col-lg-4">
+            <nav class="navbar navbar-expand-lg">
+              <!-- Nút Hamburger chỉ hiện khi màn hình nhỏ -->
+              <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navContent"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navContent">
+                <ul
+                  class="d-flex flex-row gap-5 text-nowrap align-items-center mb-0"
                 >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="header_logo"></div>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">about</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">blog</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">how it work</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">contact</a>
-                    </li>
-                  </ul>
-                  <button class="btn btn-outline-success" type="submit">
-                    Search
-                  </button>
-                </div>
+                  <li><a class="nav-link active" href="#">home</a></li>
+                  <li><a class="nav-link" href="#">about</a></li>
+                  <li><a class="nav-link" href="#">blog</a></li>
+                  <li><a class="nav-link" href="#">features</a></li>
+                  <li><a class="nav-link" href="#">how it work</a></li>
+                  <li><a class="nav-link" href="#">contact</a></li>
+                  <li class="ms-3">
+                    <button class="button_header">sing up now</button>
+                  </li>
+                </ul>
               </div>
             </nav>
           </div>
