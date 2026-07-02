@@ -13,56 +13,72 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <!-- animtation  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
+    <!-- header -->
     <header class="header">
-      <div class="container-fluid">
-        <div class="header_content row g-0">
-          <!-- logo -->
-          <div class="header_logo col-12 col-md-6 col-lg-4">
-            <a href="#">
-              <img src="./img/logo.svg" alt="" />
-            </a>
-          </div>
-          <!-- navbar -->
-          <div class="header_nav col-12 col-md-6 col-lg-4">
-            <nav class="navbar navbar-expand-lg">
-              <!-- Nút Hamburger chỉ hiện khi màn hình nhỏ -->
-              <button
-                class="navbar-toggler"
-                data-bs-toggle="collapse"
-                data-bs-target="#navContent"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navContent">
-                <ul
-                  class="d-flex flex-row gap-5 text-nowrap align-items-center mb-0"
-                >
-                  <li><a class="nav-link active" href="#">home</a></li>
-                  <li><a class="nav-link" href="#">about</a></li>
-                  <li><a class="nav-link" href="#">blog</a></li>
-                  <li><a class="nav-link" href="#">features</a></li>
-                  <li><a class="nav-link" href="#">how it work</a></li>
-                  <li><a class="nav-link" href="#">contact</a></li>
-                  <li class="ms-3">
-                    <button class="button_header">sing up now</button>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.svg" alt="Logo" />
+          </a>
+
+          <!-- Hamburger Button (Chỉ hiện trên mobile/tablet) -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navContent"
+            aria-controls="navContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Nội dung menu -->
+          <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav ms-auto align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">How it works</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              <li class="nav-item ms-lg-3">
+                <button class="button_header">Sing Up Now</button>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
+    <!-- banner -->
     <section class="banner">
       <div class="container-fluid">
-        <div class="banner_content row">
+        <div class="banner_content row justify-content-center">
           <!-- banner title -->
-          <div class="banner_title col-12 col-md-6 col-lg-4">
+          <div
+            class="banner_title col-12 col-md-6 col-lg-6 animate__animated animate__backInLeft"
+          >
             <h1>Scale design & dev operations with Avocode Enterprise</h1>
             <p>
               A fully integrated suite of authentication & authoriz products,
@@ -71,7 +87,9 @@
             <a href="#">down the theme</a>
           </div>
           <!-- bannder_img -->
-          <div class="banner_img col-12 col-md-6 col-lg-4">
+          <div
+            class="banner_img col-12 col-md-6 col-lg-4 animate__animated animate__backInRight"
+          >
             <img src="./img/banner-img.png" alt="" />
           </div>
         </div>
