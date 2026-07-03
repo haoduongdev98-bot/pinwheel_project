@@ -1,0 +1,46 @@
+.review {
+    /* padding: 64px 0; */
+    /* background-color: black; */
+}
+
+.review .container .review_title h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.review .container .review_title p{
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.712);
+}
+
+/* 1. Card: Tạo nền trắng, bo góc, và khoảng trống bên trên */
+.review_card {
+    position: relative;
+    background: #fff;
+    border-radius: 20px; /* Bo góc tròn trịa như mẫu */
+    padding: 60px 20px 30px 20px; /* Padding-top lớn để nhường chỗ cho ảnh */
+    margin-top: 50px; /* Đẩy card xuống để ảnh nổi lên */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* Bóng đổ nhẹ nhàng */
+    overflow: visible; /* BẮT BUỘC: để ảnh không bị cắt */
+}
+
+/* 2. Wrapper ảnh: Căn giữa tuyệt đối */
+.review_img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+
+/* 3. Ảnh: Bo tròn và có viền trắng dày */
+.review_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff; /* Viền trắng dày tạo độ tách biệt */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
