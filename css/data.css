@@ -1,0 +1,38 @@
+.data .container .data_content .data_img  {
+    max-width: 650px;
+    width: 100%;
+}
+
+.data .container .data_content .data_img  img{
+    width: 100%;
+    height: auto;
+}
+
+.data .container .data_content .data_title h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.data .container .data_content .data_title p{
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.619);
+    margin-top: 16px;
+}
+
+.data .container .data_content .data_title ul li i{
+    color: white;
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.data .container .data_content .data_title ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}

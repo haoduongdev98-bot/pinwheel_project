@@ -7,6 +7,9 @@
 body {
         font-family: Poppins, sans-serif;
         overflow-x: hidden;
+        background-image: url(../img/body-bg.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 a{
@@ -21,6 +24,6 @@ li {
 
 ul{
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
-
-
