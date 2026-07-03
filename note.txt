@@ -29,3 +29,30 @@ lưu ý:
 trả lời: khi merge code nếu bị báo lỗi thì sửa code xong mới phải dùng 3 bước , còn khi merge code mà ko có lỗi j xảy ra thì chỉ cần : git push origin + tên nhánh chính là xong !!!
 
 2. câu lệnh ở B2 : khi chuyển vào nhánh chính , để tránh tr đó có ng thay đổi code trên nhánh chính và đã đẩy lên nhánh chính từ lâu thì phải làm câu lệnh ở B2 để vscode cập nhật lấy code thay đổi mới nhất từ git hub về để tránh xung đột
+
+<div class="digital_video col-12 col-md-6 col-lg-4">
+            <div class="ratio position-relative ratio-16x9">
+              <div class="overplay_digital position-absolute z-2">
+                <img src="./img/intro-thumbnail.png" alt="thumnail" />
+                <div class="play_icon position-absolute">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <iframe
+                src="https://www.youtube.com/embed/h2fPDCzNvFo?si=XOCnKrv-cdgZoK_6"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
