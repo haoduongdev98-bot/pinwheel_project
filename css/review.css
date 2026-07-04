@@ -33,6 +33,7 @@
     width: 100px;
     height: 100px;
     z-index: 10;
+    
 }
 
 /* 3. Ảnh: Bo tròn và có viền trắng dày */
@@ -43,4 +44,7 @@
     border-radius: 50%;
     border: 5px solid #fff; /* Viền trắng dày tạo độ tách biệt */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom right, #ff4d6d, #ffb703);
+    border-radius: 50%;
+    padding: 2px;
 }

@@ -1,0 +1,87 @@
+footer {
+    padding: 120px 0;
+}
+
+footer .container .footer_content .text_left h2 {
+    color: black;
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    padding: 0;
+}
+
+footer .container .footer_content .text_right p {
+    padding: 0;
+    color: white;
+    font-size: 16px;
+}
+
+footer .container .footer_content {
+    background-image: linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%);
+    padding: 64px 30px 75px 30px;
+    border-radius: 15px 15px 100px 100px;
+}
+
+footer .container .footer_content .text_left a {
+    background-color: white;
+    border-radius: 50px;
+    display: block;
+    padding: 16px 35px;
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+}
+
+footer .container .footer_content .text_left a:hover {
+    box-shadow: none;
+}
+
+footer .container .footer_content .text_left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+/* reponsive tablet*/
+@media(max-width: 991px) {
+    .footer_content {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-start !important;
+        /* text-align: center; */
+        gap: 20px !important;
+    }
+    .footer_content .text_left, 
+    .footer_content .footer_right {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .footer_content .text_right a {
+        display: inline-block !important;
+    }
+}
+/* reponsive mobile */
+@media (max-width: 768px) {
+    .footer_content {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        /* text-align: center; */
+        gap: 20px !important;
+    }
+    .footer_content .text_left, 
+    .footer_content .footer_right {
+        width: 100% !important;
+        text-align: left !important;
+    }
+    .text_left h2 br {
+        display: none;
+    }
+    .footer_content .text_right a {
+        display:block;
+        margin: 0 auto;
+    }
+}
