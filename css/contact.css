@@ -36,6 +36,11 @@
     transition: all 0.3s ease;
 }
 
+.contact_content .contact_item .item_two a{
+    color: rgba(128, 128, 128, 0.658);
+}
+
+
 .contact_content .contact_item .social_ul li a:hover{
     background-color: orange;
     color: white;
