@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <!-- Font Awesome 6 CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- swiper -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.0/swiper-bundle.css"
+    integrity="sha512-PMQ1LusD9ToIeIgg9d1V/ap5C+l+ZuukxH4Iw7DUaHzK89Lavj+fOR1hYn+xB1x1Vuv7rjYDT/IHsZ+axWXFZw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <body>
+    <section class="login overflow-x-hidden">
+      <div class="container-fluid">
+        <div class="login_content row">
+          <div class="form_login col-12 col-md-6 col-lg-6">
+            <div class="title_login">
+              <img class="mb-3" src="./img/logo.svg" alt="" />
+              <h1>Sign In</h1>
+              <p>Donec sollicitudin molestie malesda sollitudin</p>
+            </div>
+            <div class="option_login my-2">
+              <div class="all_father">
+                <div class="login_btn"><a href="#">sign in with google</a></div>
+                <div class="title_log">
+                  <span>Or Sign In With Email</span>
+                </div>
+              </div>
+            </div>
+            <div class="login_form">
+              <form action="" class="d-flex flex-column">
+                <label for="email">Email Address</label
+                ><input
+                  type="email"
+                  name=""
+                  id="taiKhoan"
+                  placeholder="Your email address"
+                /><label for="">Password</label
+                ><input
+                  type="password"
+                  name=""
+                  id="matKhau"
+                  placeholder="Your Password"
+                />
+                <button type="submit">sign in</button>
+                <p class="mt-2 text-center">
+                  can't
+                  <span class="text-dark" href="#">login</span>?
+                  <a href="#">sign up</a>
+                  for create account
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="banner_login col-12 col-md-6 col-lg-6 position-relative">
+            <!-- <div class="">
+              <img
+                src="./img/login-banner-bg.svg"
+                alt="Banner Background"
+                class="banner_img"
+              />
+            </div> -->
+            <div class="banner_section position-absolute">
+              <h2>Turn your All ideas into your reality</h2>
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="./img/login-carousel-img-1 (1).png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/login-carousel-img-1 (2).png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./img/login-carousel-img-1.png"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- swiper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/14.0.0/swiper-bundle.min.js"
+      integrity="sha512-zFfZrY/ohsJFaHTSBX4z1KIRsvq6D1ZOFCuMYapQ5+wbZC4XC30lcJxvhpeqO5vOQN7ouO4cdkypWoobnvoj0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true, // Cho phép bấm vào dấu chấm để chuyển slide
+        },
+      });
+    </script>
+  </body>
+</html>

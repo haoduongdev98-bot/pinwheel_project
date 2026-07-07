@@ -1,0 +1,174 @@
+.login .container .form_login {
+    background-color: white;
+}
+
+.login .container .login_content .form_login .title_login {
+    /* background-color: rgba(255, 255, 255, 0.562); */
+}
+
+.login_content .form_login .option_login .login_btn a{
+    display: block;
+    width: 76%;
+    max-width: 500px;
+    /* background-color: rgba(255, 255, 255, 0.089); */
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    background-color: white;
+    background-size: 200% 100%;
+    background-position: left bottom;
+}
+
+.login_content .form_login .option_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.login_content .form_login .all_father{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.login_content .form_login .option_login .login_btn{
+    width: 100%;
+}
+
+.login_content .form_login .option_login .title_log{
+    width: 100%;
+    margin-left: -120px;
+}
+
+.login_content .form_login .option_login .title_log span {
+    color: rgba(128, 128, 128, 0.669);
+}
+
+.login_form input {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin: 15px 10px;
+}
+
+.login_form label {
+    width: 100%;
+    max-width: 400px;
+    margin: 5px 10px;
+}
+
+.login_form button {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+    transition: all 0.5s ease;
+    background-image: x -2px 6px 0px inset;
+    background: linear-gradient(to bottom, #fee140 0, #fa709a 51%, #fee140 100%);
+    background-size: 100% 200%;
+    background-position: left top;
+}
+
+.login_form button:hover {
+    background-position: left bottom;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.login_form p {
+margin-left: -160px;
+    
+}
+
+
+
+.login_content .title_login h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* css banner carousel right */
+.banner_login {
+    background:linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%), url(../img/login-banner-bg.svg) ;
+} 
+
+.banner_login .banner_section .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* reponsive banner login */
+@media (max-width: 768px) {
+    .login_content {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 100% !important;
+        align-items: center !important;
+    }
+    .option_login {
+        display: flex !important;
+        max-width: 400px !important;
+        width: 100% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: -webkit-match-parent !important;
+    }
+    .login_btn{
+        width: 100% !important;
+    }
+    .title_log {
+        width: 100% !important;
+        /* margin-left: 165px !important; */
+    }
+    .login_form p {
+        text-align: center !important;
+    }
+}
+@media (max-width: 992px){
+    .login_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .option_login {
+        display: flex;
+        max-width: 400px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: -webkit-match-parent;
+    }
+    .login_btn{
+        width: 100%;
+    }
+    .title_log {
+        width: 100%;
+        /* margin-left: 165px !important; */
+    }
+    .login_form p {
+        text-align: center !important;
+    }
+}
+
