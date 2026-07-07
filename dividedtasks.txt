@@ -1,0 +1,7 @@
+Dương thái hào: 
+  1. Home page
+  2. login 
+
+Phùng Xuân Trung:
+  1. Blog
+  2. About
