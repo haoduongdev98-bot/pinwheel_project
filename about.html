@@ -1,138 +1,342 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pinkwheel-tailwind</title>
 
     <!-- Font awesome-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/about.css" />
-  </head>
 
-  <body>
-    <img
-      class="floating-bubble-1"
-      src="./../image/floating-bubble-1.svg"
-      alt=""
-    />
-    <img
-      class="floating-bubble-2"
-      src="./../image/floating-bubble-2.svg"
-      alt=""
-    />
-    <img
-      class="floating-bubble-3"
-      src="./../image/floating-bubble-3.svg"
-      alt=""
-    />
+
+
+
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+
+<body>
+    <img class="floating-bubble-1 " src="./image/floating-bubble-1.svg" alt="" />
+    <img class="floating-bubble-2 " src="./image/floating-bubble-2.svg" alt="" />
+    <img class="floating-bubble-3 " src="./image/floating-bubble-3.svg" alt="" />
     <!-- header -->
     <header>
-      <div class="container">
-        <div class="header-content">
-          <a href="#"><img src="./../image/logo.svg" alt="" /></a>
-          <ul type="none">
-            <li>
-              <a class="active" href="http://127.0.0.1:5500/index.html">Home</a>
-            </li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">How It Works</a></li>
-            <li>
-              <a href="#">Pages<i class="fa-solid fa-chevron-down"></i></a>
-            </li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <button class="btn-white">
-            <a href="http://127.0.0.1:5500/index.html">Sign Up Now</a>
-          </button>
+        <div class="container">
+            <div class="header-content">
+                <a href="#"><img src="./image/logo.svg" alt=""></a>
+                <ul type="none">
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Pages<i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="btn-white">
+                    <a href="#">Sign Up Now</a>
+                </button>
+            </div>
         </div>
-      </div>
+
     </header>
     <!-- about -->
     <section class="about">
-      <div class="container">
-        <div class="about-item">
-          <ul type="none">
-            <li>
-              <a href="#"
-                ><i class="fa-regular fa-house"></i><span> Home</span></a
-              >
-            </li>
-            <li>/ About Us</li>
-          </ul>
+        <div class="container">
+            <div class="about-item">
+                <ul type="none">
+                    <li><a href="#"><i class="fa-regular fa-house"></i><span> Home</span></a> </li>
+                    <li>/ About Us</li>
+                </ul>
+            </div>
+            <div class="about-content">
+                <h1>About our company</h1>
+                <p>Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque
+                    <br>nec,
+                    egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+                </p>
+                <div class="about-button">
+                    <button class="btn-pink">Download The Theme</button>
+                    <button class="btn-white2">Learn More</button>
+                </div>
+            </div>
+            <div class="about-number">
+                <!-- item1 -->
+                <div class="item-1">
+                    <h2>
+                        <span class="counter">25</span>M
+                        <span class="plus">+</span>
+                    </h2>
+                    <P>Customers</P>
+                </div>
+                <!-- item2 -->
+                <div class="item-2">
+                    <h2>
+                        <span class="counter">440</span>M
+                        <span class="plus">+</span>
+                    </h2>
+                    <P>Products sold</P>
+                </div>
+                <!-- item3 -->
+                <div class="item-3">
+                    <h2>
+                        <span class="counter">50</span>K
+                        <span class="plus">+</span>
+                    </h2>
+                    <P>Online stores</P>
+                </div>
+                <!-- item4 -->
+                <div class="item-4">
+                    <h2>
+                        <span class="counter">20</span>K
+                        <span class="plus">+</span>
+                    </h2>
+                    <P>
+                        Transactions</P>
+                </div>
+            </div>
         </div>
-        <div class="about-content">
-          <h1>About our company</h1>
-          <p>
-            Donec sollicitudin molestie malesda. Donec sollitudin molestie
-            malesuada. Mauris pellentesque <br />nec, egestas non nisi. Cras
-            ultricies ligula sed magna dictum porta. Lorem
-          </p>
-          <div class="about-button">
-            <button class="btn-pink">Download The Theme</button>
-            <button class="btn-white2">Learn More</button>
-          </div>
-        </div>
-        <div class="about-number">
-          <!-- item1 -->
-          <div class="item-1">
-            <h2>
-              <span>25</span>
-              <span>+</span>
-            </h2>
-            <p>Customers</p>
-          </div>
-          <!-- item2 -->
-          <div class="item-1">
-            <h2>
-              <span>440</span>
-              <span>+</span>
-            </h2>
-            <p>Products sold</p>
-          </div>
-          <!-- item3 -->
-          <div class="item-1">
-            <h2>
-              <span>50</span>
-              <span>+</span>
-            </h2>
-            <p>Online stores</p>
-          </div>
-          <!-- item4 -->
-          <div class="item-1">
-            <h2>
-              <span>20</span>
-              <span>+</span>
-            </h2>
-            <p>Transactions</p>
-          </div>
-        </div>
-      </div>
     </section>
     <!-- gallery -->
-    <section></section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-content">
+                <h2>We started with one single goal <br>Empower entrepreneurs</h2>
+            </div>
+            <div class="gallery-img">
+                <div class="gallery-right">
+                    <div class="item-1">
+                        <img src="./image/gallery-img-1.png" alt="">
+                    </div>
+                    <div class="item-2">
+                        <img src="./image/gallery-img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="gallery-left">
+                    <img src="./image/gallery-img-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- work -->
-    <section></section>
+    <section class="work">
+        <div class="container">
+            <div class="work-content">
+                <div>
+                    <h2>The six core work
+                        <br>drive everything do
+                    </h2>
+                </div>
+                <div>
+                    <button class="btn-pink">Download The Theme</button>
+                </div>
+            </div>
+            <div class="work-item">
+                <!-- item1 -->
+                <div class="item">
+                    <div class="number">
+                        <span>01</span>
+                        <img src="./image/gradient-number-bg.svg" alt="">
+                    </div>
+                    <h4>Accessibility</h4>
+                    <p>Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet
+                        aliuam vel</p>
+                </div>
+                <!-- item2 -->
+                <div class="item">
+                    <div class="number">
+                        <span>02</span>
+                        <img src="./image/gradient-number-bg.svg" alt="">
+                    </div>
+                    <h4>Empowerement</h4>
+                    <p>Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet
+                        aliuam vel</p>
+                </div>
+                <!-- item3 -->
+                <div class="item">
+                    <div class="number">
+                        <span>03</span>
+                        <img src="./image/gradient-number-bg.svg" alt="">
+                    </div>
+                    <h4>Innovation</h4>
+                    <p>Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet
+                        aliuam vel</p>
+                </div>
+                <!-- item4 -->
+                <div class="item">
+                    <div class="number">
+                        <span>04</span>
+                        <img src="./image/gradient-number-bg.svg" alt="">
+                    </div>
+                    <h4>Excellence</h4>
+                    <p>Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet
+                        aliuam vel</p>
+                </div>
+                <!-- item5 -->
+                <div class="item">
+                    <div class="number">
+                        <span>05</span>
+                        <img src="./image/gradient-number-bg.svg" alt="">
+                    </div>
+                    <h4>Team work</h4>
+                    <p>Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet
+                        aliuam vel</p>
+                </div>
+                <!-- item6 -->
+                <div class="item">
+                    <div class="number">
+                        <span>06</span>
+                        <img src=".//image/gradient-number-bg.svg" alt="">
+                    </div>
+                    <h4>Responsibility</h4>
+                    <p>Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet
+                        aliuam vel</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- member -->
-    <section></section>
+    <section class="member">
+        <div class="container">
+            <div class="member-content">
+                <h2>This is who we are</h2>
+                <p>Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies <br>ligula sed magna dictum
+                </p>
+            </div>
+            <div class="member-item">
+                <!-- item1 -->
+                <div class="item">
+                    <div>
+                        <img src="./image/user-1.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <h4>Eleanor Pena</h4>
+                        <p>Co-founder & COO</p>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="item">
+                    <div>
+                        <img src="./image/user-2.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <h4>Savannah Nguyen</h4>
+                        <p>Head of Infrastructure</p>
+                    </div>
+                </div>
+                <!-- item3 -->
+                <div class="item">
+                    <div>
+                        <img src="./image/user-3.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <h4>Courtney Henry</h4>
+                        <p>Head of Brand Marketing</p>
+                    </div>
+                </div>
+                <!-- item4 -->
+                <div class="item">
+                    <div>
+                        <img src="./image/user-4.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <h4>Floyd Miles</h4>
+                        <p>Head of Infrastructure</p>
+                    </div>
+                </div>
+                <!-- item5 -->
+                <div class="item">
+                    <div>
+                        <img src="./image/user-5.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <h4>Robert Fox</h4>
+                        <p>Head of Product Design</p>
+                    </div>
+                </div>
+                <!-- item6 -->
+                <div class="item">
+                    <div>
+                        <img src="./image/user-6.png" alt="">
+                    </div>
+                    <div class="item-content">
+                        <h4>Darrell Steward</h4>
+                        <p>Head of People & HR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">
+                        <img src="./image/logo.svg" alt="">
+                    </a>
+                    <p>Lorem ipsum dolor sit sed dmi amet,<br> consectetur adipiscing. Cdo tellus,<br> sed condimentum volutpat.
+                    </p>
+                </div>
+                <div class="footer-item">
+                    <h6>Socials</h6>
+                    <p>themefisher@gmail.com</p>
+                    <div class="item">
+                        <ul type="none">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-info"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-bug"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-link">
+                    <h6>Quick Links</h6>
+                    <ul type="none">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Category</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-location">
+                    <h6>Location & Contact</h6>
+                    <p>2118 Thornridge Cir. Syracuse, <br>Connecticut 35624
+                        <br>(704) 555-0127</p>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-end">
+            <p>Designed And Developed by Themefisher</p>
+        </div>
 
-    <footer></footer>
-  </body>
+    </footer>
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- waypoint -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- Counter Up -->
+    <script src="./js/jquery.countup.js"></script>
+
+
+
+    <script type="text/javascript">
+        $('.counter').countUp();
+    </script>
+</body>
+
 </html>
