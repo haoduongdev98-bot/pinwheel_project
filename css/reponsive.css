@@ -1,0 +1,128 @@
+
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 24px;
+    }
+
+    .work .work-item {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .member .member-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer .footer-content {
+        flex-wrap: wrap;
+    }
+    footer .footer-content .footer-logo,
+    footer .footer-content .footer-item,
+    footer .footer-content .footer-link,
+    footer .footer-content .footer-location {
+        width: 50%;
+        margin: 24px 0;
+    }
+
+
+    .featured .featured-post2 .item {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header .header-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header .header-content ul {
+        margin-right: 0;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    header .header-content ul a {
+        margin-right: 0;
+    }
+
+    .about .about-content h1 {
+        font-size: 32px; 
+    }
+    .about .about-content .about-button {
+        flex-direction: column;
+        margin: 30px 0;
+    }
+    .about .about-content .about-button button {
+        width: 100%;
+    }
+    
+
+    .about .about-number {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .about .about-number > div {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 24px;
+        text-align: center;
+    }
+    .about .about-number .item-4 {
+        border-bottom: none;
+    }
+
+
+    .gallery .gallery-img {
+        grid-template-columns: 1fr; 
+    }
+
+
+    .work .work-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+    }
+    .work .work-item,
+    .member .member-item {
+        grid-template-columns: 1fr;
+    }
+    .member .member-item .item {
+        margin: 0 auto 32px;
+    }
+
+
+    footer .footer-content .footer-logo,
+    footer .footer-content .footer-item,
+    footer .footer-content .footer-link,
+    footer .footer-content .footer-location {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    footer .footer-content .footer-item .item ul {
+        justify-content: center;
+        gap: 16px;
+    }
+
+
+    .featured .featured-post1 .item,
+    .featured .featured-post2 .item {
+        width: 100%;
+        padding: 0;
+    }
+    
+
+    .featured .featured-post1 .item .card {
+        flex-direction: column;
+        padding: 0;
+    }
+    .featured .featured-post1 .item .card img {
+        width: 100%;
+        border-radius: 0.75rem 0.75rem 0 0; 
+    }
+    .featured .featured-post1 .item .card .card-content {
+        padding: 24px;
+    }
+    
+    .featured-list ul {
+        justify-content: center;
+    }
+}
